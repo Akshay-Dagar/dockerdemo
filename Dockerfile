@@ -54,3 +54,4 @@ CMD npm start
 #Note that u will need to map ports on your local machine to ports u have exposed, otherwise no one will be 
 #listening on any port. U can give a "-p LocalMachinePort:DockerExposedPort" in "docker run" command
 #to do this eg. "docker run -p 5000:8080 imageid". U can go to http://localhost:5000 to see your app running (http not https)
+#We have to specify ports because multiple docker containers maybe running on the same machine.
